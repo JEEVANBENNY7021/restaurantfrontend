@@ -1,0 +1,48 @@
+.navbar-custom {
+    background-color: #292828; /* Dark background color */
+    padding: 10px 10px;
+   font-family: initial;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .logo span {
+    color: #00bfff;
+  }
+  
+  .nav-links .nav-link {
+    font-size: 16px;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .nav-links .nav-link:hover {
+    color: #00bfff;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+  

@@ -1,0 +1,114 @@
+
+.create-menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    min-height: 100vh;
+}
+
+
+.create-menu-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-section,
+.list-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form section */
+.form-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.list-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Buttons for create and delete */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Menu item list styles */
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.menu-item-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+.delete-btn,
+.update-btn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.delete-btn:hover,
+.update-btn:hover {
+    background-color: #c82333;
+}
+
+/* For no menu items message */
+.no-items-message {
+    color: #777;
+    font-style: italic;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .form-section,
+    .list-section {
+        width: 90%;
+    }
+}
